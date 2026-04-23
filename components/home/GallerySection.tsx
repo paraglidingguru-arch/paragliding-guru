@@ -68,7 +68,7 @@ function GalleryImage({ src, alt }: { src: string; alt: string }) {
 					>
 						{alt}
 					</Typography>
-					<Box
+					{/* <Box
 						sx={{
 							width: 36,
 							height: 36,
@@ -81,7 +81,7 @@ function GalleryImage({ src, alt }: { src: string; alt: string }) {
 						}}
 					>
 						<ZoomInIcon sx={{ color: "#FFFFFF", fontSize: 20 }} />
-					</Box>
+					</Box> */}
 				</Stack>
 			</Box>
 		</Box>
