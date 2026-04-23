@@ -8,7 +8,7 @@
       "role": "Assistant Instructor",
       "flyingSince": "2019",
       "qualification": "B.Tech (CSE)",
-      "photo": "/instructor-photo.png",
+      "photo": "/images/team/sunidhi-jamwal.png",
       "bio": [
         "Sunidhi handles ground training and takeoff instruction, and her calm, mild-mannered nature makes her instantly approachable for beginners. She has a quiet confidence and consistently performs well even in pressure situations.",
         "She also supports the team with laser line checks and trimming, bringing clarity and focus to tasks that need precision."
@@ -18,8 +18,7 @@
       "name": "Madan Bhatia",
       "role": "Assistant Instructor",
       "flyingSince": "2017",
-      "qualification": "",
-      "photo": "/instructor-photo.png",
+      "photo": "/images/team/madan-bhatia.png",
       "bio": [
         "Madan is a launch instructor and a key part of ground training. He's known for being a steady, consistent worker — someone who shows up fully every day and keeps the training routine running smoothly.",
         "He also contributes to laser line checks and trimming, where his disciplined approach ensures accurate results and safe equipment."
@@ -29,8 +28,7 @@
       "name": "Arshdeep Singh",
       "role": "Assistant Instructor",
       "flyingSince": "2019",
-      "qualification": "",
-      "photo": "/instructor-photo.png",
+      "photo": "/images/team/arshdeep-singh.png",
       "bio": [
         "Arsh is both a takeoff and landing instructor, and he brings a lot of personality to the hill — a flamboyant Punjabi acro pilot with a friendly, energetic presence. Students enjoy his enthusiasm and the confidence he brings to the field.",
         "Behind the colour and charm is someone who's deeply committed to keeping the training structured and safe."
@@ -40,8 +38,7 @@
       "name": "Ravi Son",
       "role": "Equipment & Ground Training Specialist",
       "flyingSince": "2010",
-      "qualification": "",
-      "photo": "/instructor-photo.png",
+      "photo": "/images/team/ravi-son.png",
       "bio": [
         "Ravi handles equipment maintenance, glider repairs, and ground training. He has an exceptional eye for detail — the kind that spots small issues before they become actual problems.",
         "His work on the equipment side, from stitching to fabric checks to repairs, ensures that every glider heading to the hill is in reliable condition. He's the quiet guardian of safety at PG Gurukul."
@@ -50,9 +47,7 @@
     {
       "name": "Karthika Aiyer",
       "role": "Media & Communications",
-      "flyingSince": "",
-      "qualification": "",
-      "photo": "/instructor-photo.png",
+      "photo": "/images/team/karthika-aiyer.png",
       "bio": [
         "Karthika manages social media, communication, and all media-related work for PG Gurukul. She handles everything from content creation to videos, student stories, announcements, and online presence.",
         "With a clear sense of aesthetics and an understanding of how to communicate the school's values, she helps present PG Gurukul's training, culture, and achievements in an honest and engaging way."
