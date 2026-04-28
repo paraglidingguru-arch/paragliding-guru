@@ -7,15 +7,13 @@
       "name": "Shon Fulzele",
       "role": "P3 Graduate",
       "text": "Dream bigger. Do bigger. Training with Gurpreet taught me how to face my fears and stay calm under pressure. The experience transformed not just my flying skills, but my entire approach to challenges in life.",
-      "rating": 5,
-      "photo": "/testimonial-1.png"
+      "rating": 5
     },
     {
       "name": "Priya Sharma",
       "role": "P2 Graduate",
       "text": "The best decision I ever made was joining PG Gurukul. The systematic approach to learning, combined with world-class safety standards, made me confident in the sky within weeks.",
-      "rating": 5,
-      "photo": null
+      "rating": 5
     },
     {
       "name": "Rahul Mehta",
@@ -28,8 +26,7 @@
       "name": "Ananya Verma",
       "role": "SIV Graduate",
       "text": "The SIV course was intense but incredibly valuable. Learning emergency procedures gave me the confidence to push my limits safely. Truly professional instruction.",
-      "rating": 5,
-      "photo": null
+      "rating": 5
     }
   ]
 }
