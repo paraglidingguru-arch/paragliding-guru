@@ -1,133 +1,125 @@
 {
-	"badge": "Our Courses",
-	"title": "Find Your Perfect Course",
-	"description": "From first flight to cross-country adventures, we have a program tailored for your goals.",
-	"items": [
-		{
-			"title": "P1 + P2",
-			"primaryDescription": "Perfect for beginners. Learn ground handling, launch techniques, and your first solo flights in a safe environment.",
-			"secondaryDescription": "The building block of becoming a skilled pilot where you will practice and learn all ground handling, safety skills, techniques and theory to get you in the air as well as getting some air time. 3 days of ground training on average, 2 instructional tandem flights and 8 solo.",
-			"duration": "8 Days",
-			"venue": "Bir",
-			"cost": "₹40,000",
-			"level": "Beginner",
-			"tag": "Most Popular",
-			"featured": true,
-			"schedule": {
-				"sessions": [
-					"Feb 16, 2026",
-					"Mar 2, 2026",
-					"Mar 16, 2026",
-					"Apr 4, 2026",
-					"Apr 18, 2026",
-					"May 2, 2026"
-				]
-			}
-		},
-		{
-			"title": "P1 + P2 + P3",
-			"primaryDescription": "Perfect for beginners. Learn ground handling, launch techniques, and your first solo flights in a safe environment.",
-			"secondaryDescription": "In this course student learns everything needed to be able to fly independently including dealing with emergencies , how to descend quickly, advanced theory of flight and meteorology.",
-			"duration": "11 Days",
-			"venue": "Bir",
-			"cost": "₹55,000",
-			"level": "Beginner",
-			"tag": "Most Popular",
-			"featured": true,
-			"schedule": {
-				"sessions": [
-					"Feb 16, 2026",
-					"Mar 2, 2026",
-					"Mar 16, 2026",
-					"Apr 4, 2026",
-					"Apr 18, 2026",
-					"May 2, 2026"
-				]
-			}
-		},
-		{
-			"title": "P3",
-			"primaryDescription": "This course is for students who have completed P1+P2 can opt for P3 to learn advanced skills.",
-			"secondaryDescription": "In this course student learns everything needed to be able to fly independently including dealing with emergencies , how to descend quickly, advanced theory of flight and meteorology along with 2 days refresher.",
-			"duration": "5 Days",
-			"venue": "Bir",
-			"cost": "₹25,000",
-			"level": "Intermediate",
-			"tag": "Skill Builder",
-			"featured": false,
-			"schedule": {
-				"sessions": [
-					"Feb 16, 2026",
-					"Mar 2, 2026",
-					"Mar 16, 2026",
-					"Apr 4, 2026",
-					"Apr 18, 2026",
-					"May 2, 2026"
-				]
-			}
-		},
-		{
-			"title": "P1 + P2 + P3 + Thermalling/Practice(3days) [Integrated Course]",
-			"primaryDescription": "Perfect for beginners. Learn ground handling, launch techniques, advanced skills and thermal soaring skills.",
-			"secondaryDescription": "This course is most in line with Gurukul philosophy. A 15 day course where we both put in our best and try to learn as much as possible in 15 days. Most people achieve level up to fair thermal soaring skills in this period. What you are getting is approximately  p1+p2+p3 and 4 days of thermal soaring training. Doing all together means reflexes form well enough to stay after next off season and longer stay also means better relation between teacher and student and better understanding of methods. This is our most recommended way for learning paragliding. On PAI rating levels this course will most likely take you past Novice pilot level and very close to pilot level.",
-			"duration": "14 Days",
-			"venue": "Bir",
-			"cost": "₹70,000",
-			"level": "Beginner",
-			"tag": "Best Value",
-			"featured": true,
-			"schedule": {
-				"sessions": [
-					"Feb 16, 2026",
-					"Mar 2, 2026",
-					"Mar 16, 2026",
-					"Apr 4, 2026",
-					"Apr 18, 2026",
-					"May 2, 2026"
-				]
-			}
-		},
-		{
-			"title": "SIV",
-			"primaryDescription": "Pilots must have completed P3 + 50hrs and must have their own equipment for advanced training",
-			"secondaryDescription": "The building block of becoming a skilled pilot where you will practice and learn all ground handling, safety skills, techniques and theory to get you in the air as well as getting some air time. 3 days of ground training on average, 2 instructional tandem flights and 8 solo.",
-			"duration": "4 Days + 1 Reserve Day (if needed)",
-			"venue": "Lake Location",
-			"cost": "₹32,000",
-			"level": "Advanced",
-			"tag": "Safety Focus",
-			"featured": false,
-			"schedule": {
-				"sessions": []
-			}
-		},
-		{
-			"title": "Paramotoring Course",
-			"primaryDescription": "Pilots must have completed P3 to learn paramotoring",
-			"secondaryDescription": "Paramotor training involves learning to fly powered paragliders, covering ground handling, flight theory, Training is highly recommended for safety and covers equipment familiarization, pre-flight checks, and emergency procedures.",
-			"duration": "6 Days",
-			"venue": "Kotkapura / Punjab",
-			"cost": "₹50,000",
-			"level": "Advanced",
-			"tag": "Powered Flight",
-			"featured": false,
-			"schedule": {
-				"sessions": []
-			}
-		},
-		{
-			"title": "XC Cross-Country",
-			"primaryDescription": "Learn the fine points of flying distance with paragliders.",
-			"secondaryDescription": "As name suggest we teach the fine points of flying distance with paragliders. Can help in starting you first cross country or just improving your XC capabilities. most of concepts and theories covered in first three days then is guiding and debriefing mostly. Though there is always a finer element to learn.",
-			"duration": "3 Days (Minimum)",
-			"venue": "Bir",
-			"cost": "₹8,000/day",
-			"level": "Advanced",
-			"tag": "Adventure",
-			"featured": false,
-			"schedule": {
-				"sessions": ["March 13 - March 18, 2026", "April 15 - April 20, 2026"]
-			}
-		}
-	]
+  "badge": "Our Courses",
+  "title": "Find Your Perfect Course",
+  "description": "From first flight to cross-country adventures, we have a program tailored for your goals.",
+  "items": [
+    {
+      "title": "P1 + P2",
+      "primaryDescription": "Perfect for beginners. Learn ground handling, launch techniques, and your first solo flights in a safe environment.",
+      "secondaryDescription": "The building block of becoming a skilled pilot where you will practice and learn all ground handling, safety skills, techniques and theory to get you in the air as well as getting some air time. 3 days of ground training on average, 2 instructional tandem flights and 8 solo.",
+      "duration": "8 Days",
+      "venue": "Bir",
+      "cost": "₹40,000",
+      "level": "Beginner",
+      "tag": "Most Popular",
+      "featured": true,
+      "schedule": {
+        "sessions": [
+          "May 2, 2026"
+        ]
+      }
+    },
+    {
+      "title": "P1 + P2 + P3",
+      "primaryDescription": "Perfect for beginners. Learn ground handling, launch techniques, and your first solo flights in a safe environment.",
+      "secondaryDescription": "In this course student learns everything needed to be able to fly independently including dealing with emergencies , how to descend quickly, advanced theory of flight and meteorology.",
+      "duration": "11 Days",
+      "venue": "Bir",
+      "cost": "₹55,000",
+      "level": "Beginner",
+      "tag": "Most Popular",
+      "featured": true,
+      "schedule": {
+        "sessions": [
+          "Feb 16, 2026",
+          "Mar 2, 2026",
+          "Mar 16, 2026",
+          "Apr 4, 2026",
+          "Apr 18, 2026",
+          "May 2, 2026"
+        ]
+      }
+    },
+    {
+      "title": "P3",
+      "primaryDescription": "This course is for students who have completed P1+P2 can opt for P3 to learn advanced skills.",
+      "secondaryDescription": "In this course student learns everything needed to be able to fly independently including dealing with emergencies , how to descend quickly, advanced theory of flight and meteorology along with 2 days refresher.",
+      "duration": "5 Days",
+      "venue": "Bir",
+      "cost": "₹25,000",
+      "level": "Intermediate",
+      "tag": "Skill Builder",
+      "featured": false,
+      "schedule": {
+        "sessions": [
+          "Feb 16, 2026",
+          "Mar 2, 2026",
+          "Mar 16, 2026",
+          "Apr 4, 2026",
+          "Apr 18, 2026",
+          "May 2, 2026"
+        ]
+      }
+    },
+    {
+      "title": "P1 + P2 + P3 + Thermalling/Practice(3days) [Integrated Course]",
+      "primaryDescription": "Perfect for beginners. Learn ground handling, launch techniques, advanced skills and thermal soaring skills.",
+      "secondaryDescription": "This course is most in line with Gurukul philosophy. A 15 day course where we both put in our best and try to learn as much as possible in 15 days. Most people achieve level up to fair thermal soaring skills in this period. What you are getting is approximately  p1+p2+p3 and 4 days of thermal soaring training. Doing all together means reflexes form well enough to stay after next off season and longer stay also means better relation between teacher and student and better understanding of methods. This is our most recommended way for learning paragliding. On PAI rating levels this course will most likely take you past Novice pilot level and very close to pilot level.",
+      "duration": "14 Days",
+      "venue": "Bir",
+      "cost": "₹70,000",
+      "level": "Beginner",
+      "tag": "Best Value",
+      "featured": true,
+      "schedule": {
+        "sessions": [
+          "Feb 16, 2026",
+          "Mar 2, 2026",
+          "Mar 16, 2026",
+          "Apr 4, 2026",
+          "Apr 18, 2026",
+          "May 2, 2026"
+        ]
+      }
+    },
+    {
+      "title": "SIV",
+      "primaryDescription": "Pilots must have completed P3 + 50hrs and must have their own equipment for advanced training",
+      "secondaryDescription": "The building block of becoming a skilled pilot where you will practice and learn all ground handling, safety skills, techniques and theory to get you in the air as well as getting some air time. 3 days of ground training on average, 2 instructional tandem flights and 8 solo.",
+      "duration": "4 Days + 1 Reserve Day (if needed)",
+      "venue": "Lake Location",
+      "cost": "₹32,000",
+      "level": "Advanced",
+      "tag": "Safety Focus",
+      "featured": false
+    },
+    {
+      "title": "Paramotoring Course",
+      "primaryDescription": "Pilots must have completed P3 to learn paramotoring",
+      "secondaryDescription": "Paramotor training involves learning to fly powered paragliders, covering ground handling, flight theory, Training is highly recommended for safety and covers equipment familiarization, pre-flight checks, and emergency procedures.",
+      "duration": "6 Days",
+      "venue": "Kotkapura / Punjab",
+      "cost": "₹50,000",
+      "level": "Advanced",
+      "tag": "Powered Flight",
+      "featured": false
+    },
+    {
+      "title": "XC Cross-Country",
+      "primaryDescription": "Learn the fine points of flying distance with paragliders.",
+      "secondaryDescription": "As name suggest we teach the fine points of flying distance with paragliders. Can help in starting you first cross country or just improving your XC capabilities. most of concepts and theories covered in first three days then is guiding and debriefing mostly. Though there is always a finer element to learn.",
+      "duration": "3 Days (Minimum)",
+      "venue": "Bir",
+      "cost": "₹8,000/day",
+      "level": "Advanced",
+      "tag": "Adventure",
+      "featured": false,
+      "schedule": {
+        "sessions": [
+          "March 13 - March 18, 2026",
+          "April 15 - April 20, 2026"
+        ]
+      }
+    }
+  ]
 }
