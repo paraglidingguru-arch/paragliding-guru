@@ -8,15 +8,17 @@
     {
       "video": "/videos/episode-1.mp4",
       "poster": "/images/poster-1.png",
-      "caption": "Ground training is where you build control — the part nobody films."
+      "caption": "Breaking Paragliding Myths Episode 1"
     },
     {
       "video": "/videos/Episode2.mp4",
       "poster": "/images/Thumbnail2.jpg",
-      "caption": "Take-off practice on the Billing slope."
+      "caption": "Breaking Paragliding Myths Episode 2"
     },
     {
-      "caption": "Thermal day over the Bir valley."
+      "video": "/videos/Video3.mp4",
+      "poster": "/images/Thumbnail3.jpg",
+      "caption": "Meet your instructor"
     }
   ]
 }
