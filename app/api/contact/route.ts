@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { EMAIL_REGEX, escapeHtml, sanitize } from "@/lib/applications/shared";
 import { sendMail } from "@/lib/mailer";
 
 export const runtime = "nodejs";
@@ -11,23 +12,6 @@ type ContactPayload = {
 	course?: string;
 	message?: string;
 };
-
-const MAX_LENGTH = 5000;
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-function sanitize(value: unknown, maxLength = MAX_LENGTH): string {
-	if (typeof value !== "string") return "";
-	return value.trim().slice(0, maxLength);
-}
-
-function escapeHtml(value: string): string {
-	return value
-		.replace(/&/g, "&amp;")
-		.replace(/</g, "&lt;")
-		.replace(/>/g, "&gt;")
-		.replace(/"/g, "&quot;")
-		.replace(/'/g, "&#39;");
-}
 
 export async function POST(request: Request) {
 	let body: ContactPayload;

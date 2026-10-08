@@ -279,6 +279,17 @@ content:
           - name: featured
             label: Featured Course
             type: boolean
+          - name: formType
+            label: Application Form
+            type: select
+            description: "Which form opens when someone clicks Apply Now. Choose 'SIV application' for SIV courses (asks for flying hours, equipment and flight logs). Leave empty or choose 'Standard application' for all other courses."
+            required: false
+            options:
+              values:
+                - name: standard
+                  label: Standard application
+                - name: siv
+                  label: SIV application
           - name: schedule
             label: Schedule
             type: object

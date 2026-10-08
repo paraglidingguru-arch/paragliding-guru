@@ -98,6 +98,7 @@
       "level": "Advanced",
       "tag": "Safety Focus",
       "featured": false,
+      "formType": "siv",
       "schedule": {
         "sessions": [
           "17th Oct - 20th Oct"

@@ -1,4 +1,12 @@
 import { NextResponse } from "next/server";
+import {
+	ageInYears,
+	countPhoneDigits,
+	EMAIL_REGEX,
+	FITNESS_LEVELS as fitnessLevels,
+	emailRow as row,
+	sanitize,
+} from "@/lib/applications/shared";
 import { sendMail } from "@/lib/mailer";
 
 export const runtime = "nodejs";
@@ -31,53 +39,6 @@ type RequestBody = {
 	course?: CoursePayload;
 	application?: ApplicationPayload;
 };
-
-const MAX_LENGTH = 5000;
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-function countPhoneDigits(phone: string): number {
-	return phone.replace(/\D/g, "").length;
-}
-
-function parseDobAgeYears(dobIso: string): number | null {
-	const d = new Date(`${dobIso}T12:00:00`);
-	if (Number.isNaN(d.getTime())) return null;
-	const today = new Date();
-	today.setHours(0, 0, 0, 0);
-	const compare = new Date(d);
-	compare.setHours(0, 0, 0, 0);
-	if (compare > today) return null;
-	let age = today.getFullYear() - d.getFullYear();
-	const monthDiff = today.getMonth() - d.getMonth();
-	if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < d.getDate())) {
-		age--;
-	}
-	return age;
-}
-
-function sanitize(value: unknown, maxLength = MAX_LENGTH): string {
-	if (typeof value !== "string") return "";
-	return value.trim().slice(0, maxLength);
-}
-
-function escapeHtml(value: string): string {
-	return value
-		.replace(/&/g, "&amp;")
-		.replace(/</g, "&lt;")
-		.replace(/>/g, "&gt;")
-		.replace(/"/g, "&quot;")
-		.replace(/'/g, "&#39;");
-}
-
-function row(label: string, value: string): string {
-	const display = value || "—";
-	return `
-		<tr>
-			<td style="padding: 8px 12px; font-weight: 600; background: #F8FAFC; width: 220px; vertical-align: top;">${escapeHtml(label)}</td>
-			<td style="padding: 8px 12px; vertical-align: top; white-space: pre-wrap;">${escapeHtml(display)}</td>
-		</tr>
-	`;
-}
 
 export async function POST(request: Request) {
 	let body: RequestBody;
@@ -120,7 +81,6 @@ export async function POST(request: Request) {
 		);
 	}
 
-	const fitnessLevels = ["Low", "Moderate", "Good", "Excellent"] as const;
 	const fearHandlingOptions = [
 		"I stay calm under pressure",
 		"I manage fear well after some time",
@@ -166,7 +126,7 @@ export async function POST(request: Request) {
 		);
 	}
 
-	const age = parseDobAgeYears(app.dob);
+	const age = ageInYears(app.dob);
 	if (age === null) {
 		return NextResponse.json(
 			{ ok: false, error: "Please provide a valid date of birth." },

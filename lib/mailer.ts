@@ -36,11 +36,17 @@ export function getTransporter(): Transporter<SMTPTransport.SentMessageInfo> {
 	return cachedTransporter;
 }
 
+export type MailAttachment = {
+	filename: string;
+	content: Buffer;
+};
+
 export type SendMailInput = {
 	subject: string;
 	text: string;
 	html?: string;
 	replyTo?: string;
+	attachments?: MailAttachment[];
 };
 
 export async function sendMail(input: SendMailInput): Promise<void> {
@@ -55,5 +61,6 @@ export async function sendMail(input: SendMailInput): Promise<void> {
 		text: input.text,
 		html: input.html,
 		replyTo: input.replyTo,
+		attachments: input.attachments,
 	});
 }
