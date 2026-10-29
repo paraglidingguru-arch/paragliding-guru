@@ -61,8 +61,8 @@
         "sessions": [
           "15th November(FULL)",
           "1st December(Slot available for XL weight category 90-95)",
-          "14th December",
-          "28th December",
+          "14th December(FULL)",
+          "28th December( FULL)",
           "10 January"
         ]
       }
@@ -83,8 +83,8 @@
           "21st December(Only One slot Available for L Size 95-98kg)",
           "2nd Oct Batch FULL",
           "9 Nov (FULL)",
-          "7 December ( Two Slot available for small wing 45-55kg-60kg)",
-          "5 January"
+          "(FULL) 7 December ( FULL)",
+          "5 January(Only 2 slots Available in weight range 55-60 and Large 90-95kg)"
         ]
       }
     },
@@ -97,12 +97,7 @@
       "cost": "₹32,000",
       "level": "Advanced",
       "tag": "Safety Focus",
-      "featured": false,
-      "schedule": {
-        "sessions": [
-          "17th Oct - 20th Oct"
-        ]
-      }
+      "featured": false
     },
     {
       "title": "Paramotoring Course",
